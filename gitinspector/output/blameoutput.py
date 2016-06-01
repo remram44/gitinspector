@@ -27,7 +27,7 @@ from .. import format, gravatar, terminal
 from ..blame import Blame
 from .outputable import Outputable
 
-BLAME_INFO_TEXT = N_("Below are the number of rows from each author that have survived and are still "
+BLAME_INFO_TEXT = N_("Below are the number of lines from each author that have survived and are still "
                      "intact in the current revision")
 
 class BlameOutput(Outputable):
