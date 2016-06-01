@@ -30,7 +30,7 @@ class Responsibilities(object):
 
 		for i in blame.blames.items():
 			if author_name == i[0][0]:
-				total_rows = i[1].rows - i[1].comments
+				total_rows = i[1].lines - i[1].comments
 				if total_rows > 0:
 					author_blames[i[0][1]] = total_rows
 
